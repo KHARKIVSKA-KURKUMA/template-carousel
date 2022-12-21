@@ -1,14 +1,24 @@
 .carousel-sec {
   padding-top: 150px;
 }
+.multiple-items {
+  max-width: 700px;
+  margin: 0 auto;
+}
 .item {
-  height: 150px;
-  background-color: rgb(212, 125, 43);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   h4 {
     font-size: 34px;
     color: #ffffff;
+  }
+}
+.slick-initialized {
+  .slick-slide {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(212, 125, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
   }
 }
